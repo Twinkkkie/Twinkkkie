@@ -37,4 +37,3 @@ ChatGPT · Claude · Cursor · Codex
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/alina-gromyko/
-- Email: alina.gromiko@icloud.com
