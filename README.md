@@ -4,9 +4,12 @@
 
 I build Python applications, backend services, AI-powered workflows and automation tools. My commercial background includes Python/PyQt software for industrial configuration, source-code generation, firmware deployment workflows and technical documentation generation.
 
-My current portfolio focus is modern Python backend + AI engineering: FastAPI, PostgreSQL, Docker, LLM integrations, agent workflows and RAG.
+My current portfolio focus is modern Python backend + AI engineering: FastAPI, PostgreSQL, distributed workers, Docker, LLM integrations, agent workflows and RAG.
 
 ## Featured projects
+
+### [FlowForge AI](https://github.com/Twinkkkie/flowforge-ai)
+Distributed multi-tenant workflow automation platform built with **FastAPI, PostgreSQL, Redis, RabbitMQ, Celery and Docker**. Includes versioned workflow DAGs, background workers, webhook idempotency, retries/backoff, RBAC, encrypted secrets, audit logs, Prometheus metrics, CI and Kubernetes deployment examples.
 
 ### [AgentDesk AI](https://github.com/Twinkkkie/agentdesk-ai)
 AI task-orchestration backend built with **FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker and LangGraph**. Includes persistent agent runs, structured action planning, human approval/rejection gates, controlled tool execution, tests and CI.
@@ -25,11 +28,15 @@ Python-based code-generation workflow for embedded C/C++ projects, including con
 
 ## Core technologies
 
-`Python` · `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Docker` · `LangGraph` · `pgvector` · `PyQt` · `SQL` · `Git` · `C/C++`
+`Python` · `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Docker` · `Redis` · `RabbitMQ` · `Celery` · `LangGraph` · `pgvector` · `PyQt` · `Git`
 
 ## AI / LLM
 
-LLM APIs · structured outputs · agent workflows · human-in-the-loop execution · embeddings · vector search · RAG · prompt-injection-aware retrieval
+LLM APIs · structured outputs · agent workflows · human-in-the-loop execution · embeddings · vector search · RAG · AI workflow nodes
+
+## Backend / distributed systems
+
+Multi-tenancy · RBAC · background workers · queues · idempotency · retries/backoff · immutable versioning · audit logs · observability · Prometheus · Kubernetes
 
 ## Development tools
 
